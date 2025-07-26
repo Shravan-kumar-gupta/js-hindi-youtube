@@ -25,3 +25,22 @@ const myFuntion = function  (params) {
   console.log("Hello world ")
 }
  console.log(typeof(myFuntion))
+
+
+//  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Memory 
+//  Stack(primitive) , Heap(non primitive)
+
+let myYoutubename = "hitechchaudhaydotcom"
+let anotherName  = myYoutubename;
+console.log(anotherName)
+
+let userOne  = {
+  email : "user@google.com",
+  upi :   "user@ybl"
+} 
+let userTwo  = userOne
+userTwo.email = "hitesh2gmail.com";
+console.log(userOne.email)
+console.log(userTwo.email);
+
