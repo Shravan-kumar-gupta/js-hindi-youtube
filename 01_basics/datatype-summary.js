@@ -13,18 +13,17 @@ const bigNumber = 123534645476547547547475447457n
 console.log(typeof(bigNumber))
 
 // Reference Type / Non Primitive Type :
-// Array , Objects , Functions  
+// Array , Objects , Functions ,Date , Map , Math
 
 const heroes = ["shaktiman","naagraj","doga"]
 let myObj = {
     name : "Sk",
     age : 23,
-
 }
 const myFuntion = function  (params) {
   console.log("Hello world ")
 }
- console.log(typeof(myFuntion))
+console.log(typeof(myFuntion))
 
 
 //  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++

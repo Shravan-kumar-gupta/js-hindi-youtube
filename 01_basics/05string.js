@@ -24,10 +24,15 @@ const gameName  = new String("hitesh-hc")
 // console.log(newStringOne.trim());
 // console.dir(String)
 
-const url = "https://hitesh.com/hitesh%20chaudhary"
-console.log(url.replace('%20','-'))
-console.log(url.includes('hitesh'))
-console.log(gameName.split('-'));
-console.log(gameName.bold());
+// const url = "https://hitesh.com/hitesh%20chaudhary"
+// console.log(url.replace('%20','-'))
+// console.log(url.includes('hitesh'))
+// console.log(gameName.split('-'));
+// console.log(gameName.bold());
 
-console.dir(String.prototype)
+// console.dir(String.prototype)
+
+// const num  = new Number(20);
+// console.log(num);
+// const boolVal  = new Boolean(true);
+// console.log(boolVal);
